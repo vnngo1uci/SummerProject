@@ -1,8 +1,8 @@
-import openpxyl
+import openpyxl
 
 data_file = '/Users/vincentngo/Desktop/Summer23/SummerProject/ABCDCatering.xls'
 
-workbook_obj = openpxyl.load_workbook(data_file)
+workbook_obj = openpyxl.load_workbook(data_file)
 
 sheet_obj = workbook_obj.active
  
